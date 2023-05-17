@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+
+audio {
+  width: 420px;
+  margin: 30px 0;
+}
+
+.container {
+  height: 420px;
+  overflow: hidden;
+}
+
+.container ul {
+  transition: 0.6s;
+  list-style: none;
+}
+
+.container ul li {
+  height: 30px;
+  line-height: 30px;
+  transition: 0.2s;
+  color: #eeeeee59;
+}
+
+.container ul li.active {
+  color: #fff;
+  transform: scale(1.1);
+}
